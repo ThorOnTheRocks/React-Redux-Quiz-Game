@@ -28,7 +28,7 @@ const MainPage = () => {
   }
   return (
     <div className="font-mono bg-purple-50 min-h-screen">
-      <h1 className="bg-purple-500 text-white p-4 text-2x1 text-center">REDUX SAGA QUIZ GAME</h1>
+      <h1 className="bg-purple-500 text-white p-4 text-2x1 text-center uppercase">REDUX SAGA QUIZ GAME</h1>
       {displayedPage}
     </div>
   );

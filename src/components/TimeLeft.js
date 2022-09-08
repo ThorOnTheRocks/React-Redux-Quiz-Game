@@ -17,9 +17,9 @@ const TimeLeft = () => {
   }, [])
 
   return (
-    <div>
-      <p>{timeLeft}</p>
-    </div>
+    <>
+      <p className="h-20 w-20 flex justify-center items-center border-8 border-purple-500 rounded-full my-4 text-3xl text-purple-500">{timeLeft}</p>
+    </>
   );
 };
 
